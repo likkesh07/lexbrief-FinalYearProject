@@ -1,231 +1,98 @@
 [
   {
-    "id": "468ae2d1-5cc2-4748-8eba-cdb9e3dafd58",
-    "doc_type": "Land Lease Agreement",
-    "risk_level": "Low",
-    "created_at": "2026-03-26T05:29:52.223929Z",
-    "word_count": 2859,
-    "text_preview": "[Page 1]\nThis Land Lease Agreement (\"Agreement\") is made and entered into on this 3rd May 2025, at \nPune, Maharashtra, India, \nBY AND BETWEEN \nMr. Rajesh Kumar Sharma, \nSon of Mr. Dinesh Sharma, \nresiding at Flat No. 401, Sai Residency, Baner, Pune \u2013 411045, \n(hereinafter referred to as the\u2026",
-    "result": {
-      "document_type": "Land Lease Agreement",
-      "risk_level": "Low",
-      "word_count": 2859,
-      "executive_summary": "This Land Lease Agreement outlines the terms between Mr. Rajesh Kumar Sharma and Ms. Priya Natarajan for a five-year lease of agricultural land in Pune, India. Key points include annual rent, security deposit, use restrictions, maintenance responsibilities, dispute resolution, and jurisdiction.",
-      "parties": [
-        {
-          "role": "Lessor",
-          "name": "Mr. Rajesh Kumar Sharma"
-        },
-        {
-          "role": "Lessee",
-          "name": "Ms. Priya Natarajan"
-        }
-      ],
-      "key_points": [
-        "Lease term for five years, starting June 1, 2025.",
-        "Annual rent of INR 1,50,000 (one lakh fifty thousand) payable annually on June 5th.",
-        "Lessee must pay a refundable security deposit of INR 50,000 at lease execution.",
-        "Land to be used strictly for organic farming; no unauthorized use allowed.",
-        "Lessor responsible for all government taxes and duties related to the land.",
-        "No sub-leasing or assignment without Lessor's written consent.",
-        "Either party can terminate with 3 months' notice, or non-breaching party may terminate immediately upon breach."
-      ],
-      "obligations": [
-        "Pay annual rent on June 5th each year.",
-        "Pay refundable security deposit of INR 50,000 at lease execution.",
-        "Use land strictly for organic farming and not for unlawful purposes.",
-        "Maintain land in good condition; no permanent structural changes without Lessor's consent.",
-        "Lessor responsible for all government taxes and duties related to the land.",
-        "No sub-leasing or assignment of premises without prior written consent from Lessor."
-      ],
-      "risks": [
-        "Risk of non-payment of rent by Lessee, leading to potential termination of lease.",
-        "Risk of unauthorized use of leased land by Lessee, potentially resulting in breach and termination.",
-        "Risk of disputes over maintenance or structural changes requiring prior written consent from Lessor."
-      ],
-      "important_dates": [
-        {
-          "label": "Lease Commencement",
-          "value": "1st June 2025"
-        },
-        {
-          "label": "Annual Rent Due Date",
-          "value": "5th June each year"
-        },
-        {
-          "label": "Security Deposit Payment",
-          "value": "At lease execution on 3rd May 2025"
-        }
-      ]
-    }
-  },
-  {
-    "id": "ca2a250d-324e-4b72-b6fa-fd53ad8508a9",
-    "doc_type": "Land Lease Agreement",
-    "risk_level": "Low",
-    "created_at": "2026-03-26T05:27:56.986878Z",
-    "word_count": 2865,
-    "text_preview": "[Page 1]\nThis Land Lease Agreement (\"Agreement\") is made and entered into on this 3rd May 2025, at \nPune, Maharashtra, India, \nBY AND BETWEEN \nMr. Rajesh Kumar Sharma, \nSon of Mr. Dinesh Sharma, \nresiding at Flat No. 401, Sai Residency, Baner, Pune \u2013 411045, \n(hereinafter referred to as the\u2026",
-    "result": {
-      "document_type": "Land Lease Agreement",
-      "risk_level": "Low",
-      "word_count": 2865,
-      "executive_summary": "This Land Lease Agreement outlines the terms and conditions between Mr. Rajesh Kumar Sharma (Lessor) and Ms. Priya Natarajan (Lessee), including lease term, rent, security deposit, use of land, maintenance, taxes, sub-leasing restrictions, termination clauses, dispute resolution, and jurisdiction.",
-      "parties": [
-        {
-          "role": "Lessor",
-          "name": "Mr. Rajesh Kumar Sharma"
-        },
-        {
-          "role": "Lessee",
-          "name": "Ms. Priya Natarajan"
-        }
-      ],
-      "key_points": [
-        "Lease term for 5 years from June 1, 2025 to May 31, 2030.",
-        "Annual rent of INR 1,50,000 payable on or before June 5 each year.",
-        "Refundable security deposit of INR 50,000 at the time of agreement execution.",
-        "Lessee must use land for organic farming and not for unlawful purposes.",
-        "Lessor is responsible for government taxes related to the land.",
-        "Lessee cannot sublease or assign the premises without Lessor's consent.",
-        "Either party can terminate the lease with a 3-month written notice, or upon breach of terms.",
-        "Disputes will be resolved through amicable negotiations or arbitration in Pune, India."
-      ],
-      "obligations": [
-        "Lessor must maintain land in good condition and not make permanent structural changes without consent.",
-        "Lessee must pay rent annually on June 5th.",
-        "Lessee must use the land for organic farming as agreed.",
-        "Lessor is responsible for government taxes related to the land."
-      ],
-      "risks": [
-        "Termination of lease by either party with a 3-month notice period.",
-        "Disputes may arise and be resolved through arbitration, which could lead to legal costs."
-      ],
-      "important_dates": [
-        {
-          "label": "Lease Start",
-          "value": "June 1, 2025"
-        },
-        {
-          "label": "Annual Rent Due Date",
-          "value": "June 5, each year"
-        },
-        {
-          "label": "Security Deposit Payment",
-          "value": "At the time of agreement execution"
-        }
-      ]
-    }
-  },
-  {
-    "id": "55010155-d3a4-4397-b586-ba050a17c301",
-    "doc_type": "Land Lease Agreement",
-    "risk_level": "Low",
-    "created_at": "2026-03-25T15:18:18.830709Z",
-    "word_count": 2589,
-    "text_preview": "[Page 1]\nThis Land Lease Agreement (\"Agreement\") is made and entered into on this 3rd May 2025, at \nPune, Maharashtra, India, \nBY AND BETWEEN \nMr. Rajesh Kumar Sharma, \nSon of Mr. Dinesh Sharma, \nresiding at Flat No. 401, Sai Residency, Baner, Pune \u2013 411045, \n(hereinafter referred to as the\u2026",
-    "result": {
-      "document_type": "Land Lease Agreement",
-      "risk_level": "Low",
-      "word_count": 2589,
-      "executive_summary": "This Land Lease Agreement outlines the terms between Mr. Rajesh Kumar Sharma and Ms. Priya Natarajan for a five-year lease of agricultural land in Pune, India. Key points include annual rent, security deposit, use restrictions, maintenance responsibilities, dispute resolution, and jurisdiction.",
-      "parties": [
-        {
-          "role": "Lessor",
-          "name": "Mr. Rajesh Kumar Sharma"
-        },
-        {
-          "role": "Lessee",
-          "name": "Ms. Priya Natarajan"
-        }
-      ],
-      "key_points": [
-        "Lease term for five years, starting June 1, 2025.",
-        "Annual rent of INR 1,50,000 payable on or before June 5 each year.",
-        "Lessee must pay a refundable security deposit of INR 50,000 at lease execution.",
-        "Land can only be used for organic farming; no unauthorized use allowed.",
-        "Lessor is responsible for all government taxes and duties related to the land.",
-        "Either party may terminate the agreement with a 3-month notice or upon breach.",
-        "Disputes will be resolved through arbitration in Pune, India."
-      ],
-      "obligations": [
-        "Lessee must pay annual rent on time.",
-        "Lessor is responsible for all government taxes and duties related to the land.",
-        "Lessee must maintain the land in good condition without making permanent structural changes without Lessor's consent.",
-        "Either party may terminate the agreement with a 3-month notice or upon breach."
-      ],
-      "risks": [
-        "Failure to pay rent on time could result in termination of the lease.",
-        "Unauthorized use of the land could lead to termination of the lease.",
-        "Lessor's failure to maintain the land could also result in termination of the lease."
-      ],
-      "important_dates": [
-        {
-          "label": "Lease Start",
-          "value": "1st June 2025"
-        },
-        {
-          "label": "Annual Rent Due Date",
-          "value": "5th June each year"
-        },
-        {
-          "label": "Security Deposit Payment",
-          "value": "At lease execution"
-        },
-        {
-          "label": "Termination Notice Period",
-          "value": "3 months"
-        }
-      ]
-    }
-  },
-  {
-    "id": "34764b08-ec55-4345-82ce-a4357d648c8b",
-    "doc_type": "Land Lease Agreement",
+    "id": "9c7b69d0-af3c-4c2f-8b53-9f828fe76dc7",
+    "doc_type": "Lease Agreement",
     "risk_level": "Medium",
-    "created_at": "2026-03-25T15:02:03.386978Z",
-    "word_count": 596,
-    "text_preview": "[Page 1]\nThis Land Lease Agreement (\"Agreement\") is made and entered into on this 3rd May 2025, at \nPune, Maharashtra, India, \nBY AND BETWEEN \nMr. Rajesh Kumar Sharma, \nSon of Mr. Dinesh Sharma, \nresiding at Flat No. 401, Sai Residency, Baner, Pune \u2013 411045, \n(hereinafter referred to as the\u2026",
+    "created_at": "2026-05-02T08:37:23.419464Z",
+    "word_count": 26,
+    "text_preview": "[Page 1]\nLease Agreement\nThis Lease Agreement is made between Landlord and Tenant.\nThe Tenant agrees to pay rent on time.\nThe lease term is 12 months.\nSigned: ____________________",
     "result": {
-      "document_type": "Land Lease Agreement",
+      "document_type": "Lease Agreement",
       "risk_level": "Medium",
-      "word_count": 596,
-      "executive_summary": "This Land Lease Agreement outlines the terms and conditions for a 5-year lease of a 1.5-acre agricultural land in Pune, Maharashtra, India.",
+      "word_count": 26,
+      "executive_summary": "This document is a highly condensed Lease Agreement outlining a 12-month tenancy between a Landlord and a Tenant. The Tenant's sole explicit obligation is the timely payment of rent. Due to its extreme brevity, the agreement lacks crucial details typically found in a comprehensive lease, posing significant risks for both parties.",
       "parties": [
         {
-          "role": "Lessor",
-          "name": "Rajesh Kumar Sharma"
+          "role": "Landlord",
+          "name": "Landlord"
         },
         {
-          "role": "Lessee",
-          "name": "Priya Natarajan"
+          "role": "Tenant",
+          "name": "Tenant"
         }
       ],
       "key_points": [
-        "The lease term is for 5 years, commencing from 1st June 2025 and ending on 31st May 2030.",
-        "The Lessee agrees to pay an annual rent of INR 1,50,000 and a refundable security deposit of INR 50,000."
+        "This document is formally identified as a Lease Agreement.",
+        "It establishes a contractual relationship between a Landlord and a Tenant.",
+        "The Tenant is explicitly obligated to pay rent on time.",
+        "The agreed duration for the lease is a fixed term of 12 months.",
+        "The agreement is exceptionally brief, omitting many standard lease provisions.",
+        "It requires signatures from both parties to be legally binding."
       ],
       "obligations": [
-        "The Lessor is responsible for maintaining the land in good condition and paying all government taxes and duties.",
-        "The Lessee agrees to use the leased land strictly for organic farming activities and obtain prior written consent for any changes."
+        "Tenant: To pay rent on time."
       ],
       "risks": [
-        "If the Lessee fails to pay rent or damages the land, the Lessor may terminate the lease and retain the security deposit."
+        "**Unspecified Rent Details:** The agreement fails to state the rent amount, due date, payment frequency, or method, leading to potential disputes.",
+        "**Undefined Property:** The specific property being leased is not identified, which is a critical omission for a valid lease.",
+        "**Lack of Maintenance and Utility Clauses:** Responsibilities for repairs, utilities, and property upkeep are not allocated, creating ambiguity and potential conflict.",
+        "**Absence of Dispute Resolution:** There are no provisions for handling breaches, late payments, or disagreements, potentially requiring costly legal action.",
+        "**No Termination or Renewal Terms:** The agreement lacks details on early termination, notice periods, or options for extending the lease beyond 12 months.",
+        "**Missing Security Deposit Information:** The absence of clauses regarding a security deposit (amount, conditions for return) leaves both parties unprotected.",
+        "**Limited Enforceability:** The extreme brevity and lack of essential terms may render parts of the agreement difficult to enforce without relying on default state laws, which can vary."
       ],
       "important_dates": [
         {
-          "label": "Effective Date",
-          "value": "3rd May 2025"
-        },
-        {
-          "label": "Lease Commencement",
-          "value": "1st June 2025"
-        },
-        {
-          "label": "Lease Termination",
-          "value": "31st May 2030"
+          "label": "Lease Term",
+          "value": "12 months"
         }
       ]
+    }
+  },
+  {
+    "id": "3001a930-4eed-4379-b578-3926c09f819d",
+    "doc_type": "Partnership Agreement",
+    "risk_level": "High",
+    "created_at": "2026-05-02T08:35:07.741017Z",
+    "word_count": 26,
+    "text_preview": "[Page 1]\nPartnership Agreement\nThis Partnership Agreement is entered into by the partners.\nPartners agree to share profits and responsibilities.\nTerms of dissolution are defined herein.\nSigned: ____________________",
+    "result": {
+      "document_type": "Partnership Agreement",
+      "risk_level": "High",
+      "word_count": 26,
+      "executive_summary": "This document outlines a basic Partnership Agreement, establishing a partnership where partners agree to share profits and responsibilities. It also states that terms for dissolution are defined within the agreement. However, the document is extremely brief and lacks critical details for a functional and enforceable partnership.",
+      "parties": [
+        {
+          "role": "Partner",
+          "name": "[Unnamed]"
+        },
+        {
+          "role": "Partner",
+          "name": "[Unnamed]"
+        }
+      ],
+      "key_points": [
+        "Establishes a partnership between unnamed parties.",
+        "Partners agree to share profits.",
+        "Partners agree to share responsibilities.",
+        "Terms for the dissolution of the partnership are stated to be defined within the agreement."
+      ],
+      "obligations": [
+        "Partners must share profits.",
+        "Partners must share responsibilities.",
+        "Partners must adhere to the defined terms of dissolution."
+      ],
+      "risks": [
+        "**Lack of Specificity:** The agreement is extremely vague, lacking crucial details such as profit-sharing ratios, specific responsibilities, capital contributions, decision-making processes, and operational guidelines.",
+        "**Undefined Parties:** The document does not name or identify the specific partners, making it difficult to determine who is bound by the agreement or to enforce its terms.",
+        "**High Potential for Disputes:** The absence of clear, detailed terms for profit sharing, responsibility allocation, and dispute resolution mechanisms significantly increases the likelihood of future disagreements and conflicts among partners.",
+        "**Unspecified Dissolution Terms:** While stating that dissolution terms are defined, the document does not provide these terms, leaving the process for ending the partnership uncertain and prone to conflict.",
+        "**Enforceability Concerns:** The extreme brevity and lack of essential clauses may render the agreement difficult to enforce in a court of law, potentially leading to legal challenges.",
+        "**No Governing Law or Jurisdiction:** The agreement does not specify which jurisdiction's laws will govern the partnership, which can complicate legal interpretation and enforcement in case of disputes.",
+        "**No Term or Duration:** The agreement does not specify the intended duration of the partnership, leaving its operational lifespan undefined.",
+        "**No Capital Contributions:** There is no mention of initial or ongoing capital contributions from partners, which is fundamental for the financial structure of most partnerships."
+      ],
+      "important_dates": []
     }
   }
 ]

@@ -6,12 +6,12 @@ from functools import lru_cache
 
 
 class Settings(BaseSettings):
+    model_config = {"env_file": ".env"}
+    
     allowed_origins: str = "http://localhost:5173"
     max_file_size_mb: int = 10
     history_file: str = "history.json"
-
-    class Config:
-        env_file = ".env"
+    google_api_key: str = ""
 
     @property
     def origins_list(self) -> list[str]:

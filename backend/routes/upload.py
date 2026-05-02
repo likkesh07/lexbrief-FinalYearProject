@@ -4,7 +4,7 @@ Accepts a file (PDF, DOCX, TXT), extracts text, runs analysis.
 """
 from fastapi import APIRouter, UploadFile, File, Form, HTTPException
 from models.schemas import AnalyzeOptions, AnalyzeResponse, HistoryItem, DocumentType, SummaryDepth
-from services.ollama_service import analyze_document
+from services.google_ai_service import analyze_document
 from services.pdf_service import extract_text_from_pdf
 from services.docx_service import extract_text_from_docx
 from utils.helpers import generate_id, now_iso, truncate_text
