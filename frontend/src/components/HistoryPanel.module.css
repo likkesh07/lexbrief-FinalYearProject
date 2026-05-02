@@ -31,7 +31,7 @@
   font-size: 0.68rem;
   letter-spacing: 0.07em;
   text-transform: uppercase;
-  background: white;
+  background: var(--paper);
   border: 1px solid var(--border);
   color: var(--gray);
   transition: all 0.15s;
@@ -52,7 +52,7 @@
 .item {
   display: flex;
   align-items: stretch;
-  background: white;
+  background: var(--paper);
   border: 1px solid var(--border);
   transition: border-color 0.15s;
 }

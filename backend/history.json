@@ -1,5 +1,58 @@
 [
   {
+    "id": "5c8166fe-4bf8-4434-aa5c-c22343b13f89",
+    "doc_type": "Lease Agreement",
+    "risk_level": "High",
+    "created_at": "2026-05-02T10:10:28.807962Z",
+    "word_count": 25,
+    "text_preview": "[Page 1]\nLease Agreement\nThis Lease Agreement is made between Landlord and Tenant.\nThe Tenant agrees to pay rent on time.\nThe lease term is 12 months.\nSigned: ____________________",
+    "result": {
+      "document_type": "Lease Agreement",
+      "risk_level": "High",
+      "word_count": 25,
+      "executive_summary": "This document outlines a basic Lease Agreement between a Landlord and a Tenant for a 12-month term. The primary obligation for the Tenant is to pay rent on time. The agreement is extremely brief, lacking crucial details typically found in a comprehensive lease, which could lead to significant disputes and legal challenges due to its lack of specificity.",
+      "parties": [
+        {
+          "role": "Landlord",
+          "name": "Landlord"
+        },
+        {
+          "role": "Tenant",
+          "name": "Tenant"
+        }
+      ],
+      "key_points": [
+        "The document establishes a Lease Agreement between a Landlord and a Tenant.",
+        "The Tenant is explicitly obligated to pay rent.",
+        "Rent payments must be made 'on time', though 'on time' is not further defined.",
+        "The lease term is fixed for a duration of 12 months.",
+        "The agreement is indicated as signed, signifying mutual consent.",
+        "The document does not specify the property being leased.",
+        "The specific amount of rent due is not mentioned.",
+        "There are no details regarding the start or end date of the 12-month term."
+      ],
+      "obligations": [
+        "Tenant: Pay rent on time."
+      ],
+      "risks": [
+        "**Undefined Rent Amount:** The agreement fails to specify the exact rent amount, creating a significant point of contention and potential for disputes between parties.",
+        "**Ambiguous Payment Due Date:** The term 'on time' for rent payment is not defined, leading to uncertainty about the precise due date and potential disagreements over late payments.",
+        "**Lack of Property Identification:** The leased property is not described or identified, making the agreement potentially unenforceable or ambiguous regarding the specific premises.",
+        "**Absence of Maintenance Responsibilities:** The agreement does not allocate responsibilities for property maintenance or repairs, which is a common source of landlord-tenant disputes.",
+        "**No Termination or Renewal Clauses:** There are no provisions for early termination, notice periods, or renewal procedures, leaving both parties without clear guidelines at the end of the term.",
+        "**Missing Security Deposit Details:** The agreement omits any mention of a security deposit, leaving the Landlord unprotected against damages and the Tenant without clear terms for its return.",
+        "**No Dispute Resolution Mechanism:** The document lacks any clauses outlining how potential disagreements or breaches of the agreement will be resolved, which could lead to costly litigation.",
+        "**No Consequences for Non-Compliance:** There are no specified penalties, late fees, or remedies for breaches of the agreement, such as late rent payment or property damage."
+      ],
+      "important_dates": [
+        {
+          "label": "Lease Term Duration",
+          "value": "12 months"
+        }
+      ]
+    }
+  },
+  {
     "id": "9c7b69d0-af3c-4c2f-8b53-9f828fe76dc7",
     "doc_type": "Lease Agreement",
     "risk_level": "Medium",

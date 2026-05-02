@@ -1,16 +1,17 @@
 .panel {
   background: var(--cream);
   border: 1px solid var(--border);
-  box-shadow: 4px 4px 0 var(--shadow);
+  box-shadow: 0 4px 12px var(--shadow);
 }
 
 .header {
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--paper);
+  color: var(--ink);
   padding: 14px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid var(--border);
 }
 
 .header h2 {
@@ -19,12 +20,13 @@
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  color: var(--gold);
 }
 
 .step {
   font-family: var(--font-mono);
   font-size: 0.68rem;
-  color: var(--gray-light);
+  color: var(--gray);
 }
 
 .body { padding: 20px; }
@@ -57,7 +59,7 @@
 .tabBtn:hover:not(.active) { color: var(--ink); }
 
 .active {
-  color: var(--ink);
+  color: var(--gold);
   border-bottom-color: var(--gold);
   font-weight: 500;
 }
@@ -93,7 +95,7 @@
 .textarea {
   width: 100%;
   min-height: 240px;
-  background: white;
+  background: var(--paper);
   border: 1px solid var(--border);
   padding: 14px;
   font-family: var(--font-mono);
@@ -121,7 +123,7 @@
 /* Drop Zone */
 .dropZone {
   border: 2px dashed var(--border);
-  background: white;
+  background: var(--paper);
   padding: 44px 20px;
   text-align: center;
   cursor: pointer;
@@ -134,7 +136,7 @@
 
 .dropZone:hover, .dragging {
   border-color: var(--gold);
-  background: #fffdf7;
+  background: rgba(212,175,55,0.05);
 }
 
 .uploadIcon { color: var(--gray); }

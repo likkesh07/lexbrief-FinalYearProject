@@ -1,16 +1,17 @@
 .panel {
   background: var(--cream);
   border: 1px solid var(--border);
-  box-shadow: 4px 4px 0 var(--shadow);
+  box-shadow: 0 4px 12px var(--shadow);
 }
 
 .header {
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--paper);
+  color: var(--ink);
   padding: 14px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid var(--border);
 }
 
 .header h2 {
@@ -19,12 +20,13 @@
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  color: var(--gold);
 }
 
 .step {
   font-family: var(--font-mono);
   font-size: 0.68rem;
-  color: var(--gray-light);
+  color: var(--gray);
 }
 
 .body { padding: 20px; }
@@ -52,7 +54,7 @@
 
 select {
   width: 100%;
-  background: white;
+  background: var(--paper);
   border: 1px solid var(--border);
   padding: 8px 10px;
   font-size: 0.85rem;
@@ -61,10 +63,10 @@ select {
   cursor: pointer;
   appearance: none;
   -webkit-appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%236b6560'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23d4af37'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 10px center;
-  background-color: white;
+  background-color: var(--paper);
   transition: border-color 0.15s;
 }
 
@@ -82,6 +84,7 @@ select:focus { border-color: var(--gold); }
   gap: 9px;
   cursor: pointer;
   font-size: 0.87rem;
+  color: var(--ink);
   transition: color 0.15s;
 }
 
@@ -99,7 +102,7 @@ select:focus { border-color: var(--gold); }
   margin-top: 18px;
   padding: 15px;
   background: var(--gold);
-  color: var(--ink);
+  color: var(--paper);
   border: none;
   font-family: var(--font-display);
   font-size: 1.1rem;
@@ -115,7 +118,7 @@ select:focus { border-color: var(--gold); }
 .analyzeBtn:hover:not(:disabled) {
   background: var(--gold-light);
   transform: translateY(-1px);
-  box-shadow: 0 4px 18px rgba(184,134,11,0.3);
+  box-shadow: 0 4px 18px rgba(212,175,55,0.4);
 }
 
 .analyzeBtn:active:not(:disabled) { transform: translateY(0); }

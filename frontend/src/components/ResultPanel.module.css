@@ -1,7 +1,7 @@
 .panel {
   background: var(--cream);
   border: 1px solid var(--border);
-  box-shadow: 4px 4px 0 var(--shadow);
+  box-shadow: 0 4px 12px var(--shadow);
   position: sticky;
   top: 80px;
   max-height: calc(100vh - 100px);
@@ -9,8 +9,8 @@
 }
 
 .header {
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--paper);
+  color: var(--ink);
   padding: 14px 20px;
   display: flex;
   align-items: center;
@@ -18,6 +18,7 @@
   position: sticky;
   top: 0;
   z-index: 2;
+  border-bottom: 1px solid var(--border);
 }
 
 .header h2 {
@@ -26,12 +27,13 @@
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  color: var(--gold);
 }
 
 .step {
   font-family: var(--font-mono);
   font-size: 0.68rem;
-  color: var(--gray-light);
+  color: var(--gray);
 }
 
 .body {
@@ -89,14 +91,14 @@
 }
 
 .metaType {
-  background: var(--ink);
+  background: var(--gold);
   color: var(--paper);
-  border-color: var(--ink);
+  border-color: var(--gold);
 }
 
-.riskHigh   { background: #8b1a1a; color: #fff; border-color: #8b1a1a; }
-.riskMed    { background: #7a5c00; color: #fff; border-color: #7a5c00; }
-.riskLow    { background: #1a5c3a; color: #fff; border-color: #1a5c3a; }
+.riskHigh   { background: var(--red); color: #fff; border-color: var(--red); }
+.riskMed    { background: #d97706; color: #fff; border-color: #d97706; }
+.riskLow    { background: var(--success); color: #fff; border-color: var(--success); }
 
 /* ── Section ── */
 .section {
@@ -137,7 +139,7 @@
 }
 
 .partyCard {
-  background: white;
+  background: var(--paper);
   border: 1px solid var(--border);
   padding: 10px 13px;
 }
@@ -147,13 +149,14 @@
   font-size: 0.65rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--gray);
+  color: var(--gold);
   margin-bottom: 3px;
 }
 
 .partyName {
   font-size: 0.88rem;
   font-weight: 500;
+  color: var(--ink);
 }
 
 /* ── Key Points ── */
@@ -161,12 +164,13 @@
 
 .keyItem {
   padding: 9px 13px;
-  background: white;
+  background: var(--paper);
   border: 1px solid var(--border);
   border-left: 3px solid var(--gold);
   margin-bottom: 7px;
   font-size: 0.87rem;
   line-height: 1.6;
+  color: var(--ink);
   animation: fadeSlide 0.4s ease both;
 }
 
@@ -188,6 +192,7 @@
   line-height: 1.6;
   position: relative;
   animation: fadeSlide 0.4s ease both;
+  color: var(--ink);
 }
 
 .obligationItem::before {
@@ -210,6 +215,7 @@
   line-height: 1.6;
   position: relative;
   animation: fadeSlide 0.4s ease both;
+  color: var(--ink);
 }
 
 .riskItem::before {
@@ -233,7 +239,7 @@
   gap: 12px;
   align-items: baseline;
   padding: 8px 13px;
-  background: white;
+  background: var(--paper);
   border: 1px solid var(--border);
 }
 
@@ -247,6 +253,7 @@
 
 .dateVal {
   font-size: 0.87rem;
+  color: var(--ink);
 }
 
 /* ── Actions ── */
@@ -269,33 +276,63 @@
   letter-spacing: 0.07em;
   text-transform: uppercase;
   border: 1px solid var(--border);
-  background: white;
+  background: var(--paper);
   color: var(--ink);
   transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 
 .btn:hover {
-  background: var(--ink);
+  background: var(--gold);
   color: var(--paper);
-  border-color: var(--ink);
+  border-color: var(--gold);
 }
 
 .btnPrimary {
-  background: var(--ink);
+  background: var(--gold);
   color: var(--paper);
-  border-color: var(--ink);
+  border-color: var(--gold);
 }
 
 .btnPrimary:hover {
-  background: var(--gold);
-  color: var(--ink);
-  border-color: var(--gold);
+  background: var(--gold-light);
+  color: var(--paper);
+  border-color: var(--gold-light);
 }
 
 .btnDanger:hover {
   background: var(--red);
   border-color: var(--red);
   color: white;
+}
+
+/* ── Audio Progress Bar ── */
+.audioProgress {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.progressBar {
+  height: 6px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--gold);
+  transition: width 0.1s linear;
+  border-radius: 3px;
+}
+
+.progressText {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--gray);
+  display: block;
+  text-align: right;
 }
 
 @media (max-width: 1024px) {

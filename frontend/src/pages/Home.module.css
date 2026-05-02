@@ -2,6 +2,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: var(--paper);
 }
 
 .container {
@@ -26,6 +27,7 @@
 
 .colRight {
   /* sticky handled inside ResultPanel */
+  display: block;
 }
 
 @media (max-width: 1024px) {
