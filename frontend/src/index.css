@@ -1,0 +1,67 @@
+/* ============================================================
+   index.css — Global styles, variables, resets
+   LexBrief Legal Summarizer
+   ============================================================ */
+
+:root {
+  --ink:         #0d0d0d;
+  --paper:       #f5f0e8;
+  --cream:       #faf7f2;
+  --gold:        #b8860b;
+  --gold-light:  #d4a017;
+  --gold-dim:    rgba(184,134,11,0.12);
+  --red:         #8b1a1a;
+  --red-bg:      #fff5f5;
+  --red-border:  #f0d0d0;
+  --blue-bg:     #f0f7ff;
+  --blue-border: #c8d8f0;
+  --blue-text:   #2060a0;
+  --success:     #1a5c3a;
+  --gray:        #6b6560;
+  --gray-light:  #a8a09a;
+  --border:      #d9d0c0;
+  --shadow:      rgba(13,13,13,0.12);
+  --tag-bg:      #ede8de;
+
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-mono:    'IBM Plex Mono', 'Courier New', monospace;
+  --font-body:    'IBM Plex Sans', system-ui, sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+button { cursor: pointer; font-family: inherit; }
+input, select, textarea { font-family: inherit; }
+ul, ol { list-style: none; }
+a { color: var(--gold); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+::selection { background: var(--gold-dim); color: var(--ink); }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--paper); }
+::-webkit-scrollbar-thumb { background: var(--border); }
+::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes fadeSlide {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

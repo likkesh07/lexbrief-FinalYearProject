@@ -1,0 +1,124 @@
+.empty {
+  text-align: center;
+  padding: 40px 16px;
+  color: var(--gray);
+}
+
+.emptyIcon {
+  color: var(--border);
+  margin: 0 auto 12px;
+}
+
+.empty p { font-size: 0.88rem; line-height: 1.6; }
+.emptySub { font-size: 0.78rem; color: var(--gray-light); margin-top: 4px; }
+
+.wrap { display: flex; flex-direction: column; gap: 0; }
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+}
+
+.refreshBtn,
+.clearBtn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: white;
+  border: 1px solid var(--border);
+  color: var(--gray);
+  transition: all 0.15s;
+}
+
+.refreshBtn:hover { border-color: var(--gold); color: var(--ink); }
+.clearBtn:hover   { background: var(--red); border-color: var(--red); color: white; }
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  max-height: 380px;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+
+.item {
+  display: flex;
+  align-items: stretch;
+  background: white;
+  border: 1px solid var(--border);
+  transition: border-color 0.15s;
+}
+
+.item:hover { border-color: var(--gold); }
+
+.itemBody {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 11px 13px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  min-width: 0;
+}
+
+.itemIcon {
+  color: var(--gold);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.itemInfo { flex: 1; min-width: 0; }
+
+.itemType {
+  font-size: 0.87rem;
+  font-weight: 500;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.itemMeta {
+  font-family: var(--font-mono);
+  font-size: 0.67rem;
+  color: var(--gray);
+  margin-top: 2px;
+}
+
+.itemPreview {
+  font-size: 0.78rem;
+  color: var(--gray);
+  margin-top: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.deleteBtn {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  background: none;
+  border: none;
+  border-left: 1px solid var(--border);
+  color: var(--gray);
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background: var(--red);
+  color: white;
+  border-left-color: var(--red);
+}
