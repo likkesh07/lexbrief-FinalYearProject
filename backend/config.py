@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     max_file_size_mb: int = 10
     history_file: str = "history.json"
     google_api_key: str = ""
+    elevenlabs_api_key: str = ""
 
     @property
     def origins_list(self) -> list[str]:
